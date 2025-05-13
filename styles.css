@@ -122,6 +122,30 @@ nav {
     color: #444;
 }
 
+.feature-icon {
+    font-size: 2.5rem;
+    color: #6e8efb;
+    margin-bottom: 1rem;
+    /* Animation for hover effect */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.1);
+    color: #a777e3;
+}
+
+/* Specific icon colors if needed */
+.fa-calendar-alt {
+    color: #4CAF50; /* Green for calendar */
+}
+.fa-sync-alt {
+    color: #2196F3; /* Blue for sync */
+}
+.fa-chart-line {
+    color: #FFC107; /* Amber for analytics */
+}
+
 /* Footer */
 footer {
     background-color: #2c3e50;
